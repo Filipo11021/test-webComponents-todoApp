@@ -1,0 +1,26 @@
+<div class="todo-item">
+	<div class="main">
+		<input class="change-status" type="checkbox" />
+		<p class="description">
+			<slot></slot>
+		</p>
+	</div>
+
+	<my-button variant="danger" class="remove-btn btn-danger">remove</my-button>
+</div>
+
+<style>
+	.todo-item {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.change-status:checked + .description {
+		text-decoration: line-through;
+	}
+
+	.main {
+		display: flex;
+		gap: 1rem;
+	}
+</style>

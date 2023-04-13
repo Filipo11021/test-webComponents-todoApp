@@ -1,0 +1,5 @@
+{
+	"name": "display-todos",
+	"main": "./display-todos.ts",
+	"types": "./display-todos.ts"
+}

@@ -1,0 +1,27 @@
+<form class="add-todo">
+	<input
+		aria-label="task"
+		required
+		class="task-input"
+		name="task"
+		type="text"
+	/>
+	<my-button variant="primary">Add</my-button>
+</form>
+
+<style>
+	.add-todo {
+		display: flex;
+		gap: 0.7rem;
+	}
+	:host {
+		width: 100%;
+	}
+
+	.task-input {
+		padding: 1rem;
+		border: 1px solid #b8b8b8;
+		border-radius: 0.5rem;
+		width: 100%;
+	}
+</style>

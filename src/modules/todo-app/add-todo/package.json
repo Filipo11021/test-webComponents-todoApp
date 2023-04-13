@@ -1,0 +1,5 @@
+{
+	"name": "add-todo",
+	"main": "./add-todo.ts",
+	"types": "./add-todo.ts"
+}

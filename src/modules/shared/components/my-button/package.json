@@ -1,0 +1,5 @@
+{
+	"name": "my-button",
+	"main": "./my-button.ts",
+	"types": "./my-button.ts"
+}

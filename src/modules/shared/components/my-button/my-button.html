@@ -1,0 +1,36 @@
+<button is="my-button" type="submit" class="btn">
+	<slot></slot>
+</button>
+
+<style>
+	.btn {
+		cursor: pointer;
+		padding: 1rem;
+		border-radius: 0.5rem;
+		border: none;
+		transition: opacity 0.5s;
+	}
+
+	.btn:hover,
+	.btn:active {
+		opacity: 0.7;
+	}
+
+	:host([variant="primary"]) .btn {
+		color: #fff;
+		background-color: rgb(13, 110, 253);
+	}
+
+	:host([variant="primary"]) .btn:focus {
+		outline: 4px solid rgba(13, 110, 253, 0.4);
+	}
+
+	:host([variant="danger"]) .btn {
+		color: #fff;
+		background-color: rgb(187, 45, 59);
+	}
+
+	:host([variant="danger"]) .btn:focus {
+		outline: 4px solid rgba(187, 45, 59, 0.4);
+	}
+</style>
