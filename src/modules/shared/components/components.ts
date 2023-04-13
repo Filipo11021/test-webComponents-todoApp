@@ -1,1 +1,1 @@
-import "./my-button/my-button";
+import "./my-button";

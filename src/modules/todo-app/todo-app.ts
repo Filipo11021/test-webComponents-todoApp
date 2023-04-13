@@ -1,5 +1,5 @@
-import "./add-todo/add-todo";
-import "./display-todos/display-todos";
+import "./add-todo";
+import "./display-todos";
 
 import template from "./todo-app.html?raw";
 
